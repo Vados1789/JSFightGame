@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div style="position: relative; display: inline-block">
+        <!-- smaller red container div -->
+        <div class="container">
+            <!-- player health -->
+            <div class="healthBar">
+                <div style="background-color: red; height: 30px; width: 100%"></div>
+                <div id="playerHealth"></div>
+            </div>
+
+            <!-- timer -->
+            <div id="timer">
+                10
+            </div>
+            <!-- enemy health -->
+            <div class="healthBar">
+                <div style="background-color: red; height: 30px; width: 100%"></div>
+                <div id="enemyHealth"></div>
+            </div>
+            <div></div>
+        </div>
+        <div id="displayText">
+        </div>
+
+    <canvas></canvas>
+    <script src="Classes/classes.js"></script>
+    <script src="Classes/utils.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
